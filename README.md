@@ -15,7 +15,7 @@ its the input raw_img passes to the system through the cam feed
 <br/><br/>
 ## 2) Extract and Thresholding sudoku:
 ![thresh](https://user-images.githubusercontent.com/38394431/85227888-b4d24b80-b3fd-11ea-9a26-7e70a1161926.jpg)
-<br/>Here the sudoku is extracted , warped and thesholded from the raw_image . </br>
+<br/>Here the sudoku is extracted , warped and thesholded from the raw_image .this img is then preprocessed and used for grid-extraction </br>
 <br/><br/>
 ## 3) grid-extraction and number prediction:
 ![ext_pred](https://user-images.githubusercontent.com/38394431/85227770-f57d9500-b3fc-11ea-8a45-ba01e73d395a.JPG)
@@ -32,7 +32,13 @@ its the input raw_img passes to the system through the cam feed
 <br/>Here , the solved-cropped sudoku is warped_inversed to the original image in the same perspective 
 <br/><br/>
 
-
+# References and Resources:
+* Dataset : http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k
+* extracting Sudoku Grid: https://maker.pro/raspberry-pi/tutorial/grid-detection-with-opencv-on-raspberry-pi
+* Finding all 4 corners from a contour: https://www.programcreek.com/python/example/89417/cv2.arcLength
+* article about WarpPerspective : https://www.pyimagesearch.com/2014/05/05/building-pokedex-python-opencv-perspective-warping-step-5-6
+* Optimize digit Prediction accuracy : https://medium.com/@o.kroeger/tensorflow-mnist-and-your-own-handwritten-digits-4d1cd32bbab4
+* Solving Sudoku : http://norvig.com/sudoku.html
 
 
 
