@@ -6,10 +6,8 @@ An AR program, which reads the Sudoku problem from webcam feed and using compute
 # Directions to run the program
 * Firstly make sure u have all the required libs installed from the *requirements.txt* 
 * Traverse your terminal to this folder location.
-* Then , In your terminal type **python sudoku_main.py** and hit enter 
-<br/>
+* Then , In your terminal type **python sudoku_main.py** and hit enter
 # Workflow of prog :
-<br/>
 ## 1) Input:
 ![input](https://user-images.githubusercontent.com/38394431/85228274-35924700-b400-11ea-85ab-11285e401f45.JPG)
 
